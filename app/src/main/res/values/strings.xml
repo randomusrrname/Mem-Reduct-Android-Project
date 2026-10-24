@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Limpia RAM</string>
+    <string name="title">Memoria RAM</string>
+    <string name="clean_button">Limpiar RAM</string>
+    <string name="cleaning">Limpiando…</string>
+    <string name="details">Usada: %1$s\nLibre: %2$s\nTotal: %3$s</string>
+    <string name="result_freed">Listo: se liberaron %1$s de RAM (%2$d apps revisadas).</string>
+    <string name="result_nothing">Sin cambios notables: Android ya estaba manejando bien la RAM (%1$d apps revisadas).</string>
+    <string name="note">Android administra la RAM solo. Este botón cierra apps que están en segundo plano, pero algunas se vuelven a abrir solas.</string>
+</resources>
