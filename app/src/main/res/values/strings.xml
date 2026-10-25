@@ -5,7 +5,27 @@
     <string name="clean_button">Limpiar RAM</string>
     <string name="cleaning">Limpiando…</string>
     <string name="details">Usada: %1$s\nLibre: %2$s\nTotal: %3$s</string>
+
+    <!-- Limpieza básica (sin Shizuku) -->
     <string name="result_freed">Listo: se liberaron %1$s de RAM (%2$d apps revisadas).</string>
     <string name="result_nothing">Sin cambios notables: Android ya estaba manejando bien la RAM (%1$d apps revisadas).</string>
-    <string name="note">Android administra la RAM solo. Este botón cierra apps que están en segundo plano, pero algunas se vuelven a abrir solas.</string>
+
+    <!-- Limpieza con Shizuku -->
+    <string name="result_force_freed">Listo: se cerraron %1$d apps y se liberaron %2$s de RAM.</string>
+    <string name="result_force_nothing">Se cerraron %1$d apps, pero la RAM libre casi no cambió (Android la estaba reutilizando).</string>
+    <string name="result_force_none">No había apps abiertas para cerrar.</string>
+
+    <!-- Estado de Shizuku -->
+    <string name="shizuku_ready">Shizuku: listo. Se cierran las apps a la fuerza.</string>
+    <string name="shizuku_need_permission">Shizuku: falta autorizar esta app. Tocá Limpiar RAM para pedir el permiso.</string>
+    <string name="shizuku_denied">Shizuku: permiso denegado. Habilitá Limpia RAM desde la app Shizuku.</string>
+    <string name="shizuku_not_running">Shizuku: no está activo. Abrí Shizuku e iniciá el servicio.</string>
+
+    <!-- Avisos cuando se usa la limpieza básica -->
+    <string name="hint_authorize_shizuku">Se hizo la limpieza básica. Aceptá el permiso de Shizuku y volvé a tocar el botón para cerrar más apps.</string>
+    <string name="hint_denied_shizuku">Se hizo la limpieza básica. Para cerrar más apps, autorizá Limpia RAM dentro de la app Shizuku.</string>
+    <string name="hint_start_shizuku">Se hizo la limpieza básica. Para cerrar más apps, iniciá Shizuku.</string>
+    <string name="hint_shizuku_failed">Shizuku no respondió, así que se hizo la limpieza básica. Probá reiniciar el servicio de Shizuku.</string>
+
+    <string name="note">Android administra la RAM solo. Con Shizuku se cierran las apps a la fuerza; sin él, solo las que están en segundo plano. Algunas apps se vuelven a abrir solas.</string>
 </resources>
